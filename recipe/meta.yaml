@@ -20,22 +20,25 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - addict
-    - descartes
-    - gdspy >=1.5.2
-    - geopandas
-    - ipython
-    - matplotlib-base
-    - numpy
-    - pandas
-    - pint
-    - pyepr-quantum >=0.8.5.7
-    - pygments
-    - pyside2
-    - qutip
-    - scipy
-    - shapely
-    - scqubits
+    - addict =2.4.0
+    - descartes =1.1.0
+    - gdspy =1.6.12
+    - geopandas =0.12.2
+    - gmsh =4.11.1
+    - ipython =8.10.0
+    - matplotlib-base =3.7.0
+    - numpy =1.24.2
+    - pandas =1.5.3
+    - pint =0.20.1
+    - pyaedt =0.6.46
+    - pyepr-quantum =0.8.5.7
+    - pygments =2.14.0
+    - pyside2 =5.15.2.1
+    - pyyaml =6.0
+    - qutip =4.7.1
+    - scipy =1.10.0
+    - shapely =2.0.1
+    - scqubits =3.1.0
 
 test:
   imports:
