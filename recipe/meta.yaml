@@ -1,5 +1,5 @@
 {% set name = "qiskit-metal" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Qiskit/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: a3c58758211b536616b8c104167cf3bc022eec5986f7721e0e5d867761a17d52
+  sha256: c252870257e57ea41fd2006c8bf85902a4e11df962960e9c924600d09642c196
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
