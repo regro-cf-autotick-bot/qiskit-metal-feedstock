@@ -46,7 +46,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/Qiskit/qiskit-metal
+  home: https://github.com/qiskit-community/qiskit-metal
   summary: Qiskit Metal | for quantum device design & analysis
   license: Apache-2.0
   license_file: LICENSE.txt
